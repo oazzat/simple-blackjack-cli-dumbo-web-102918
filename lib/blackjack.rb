@@ -30,7 +30,7 @@ end
 
 def hit? (total)
   prompt_user
-  again? = get_user_input
+  again = get_user_input
   if again? == "h"
     total = total + deal_card
   elsif again? == "s"
