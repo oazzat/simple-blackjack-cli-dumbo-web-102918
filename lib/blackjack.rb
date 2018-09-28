@@ -35,10 +35,12 @@ def hit? (total)
   again = get_user_input
   if again == "h"
     total = total + deal_card
+    return total
   elsif again == "s"
-    return
+    return total
   else
     invalid_command
+    return total
   end
   return total
 end
