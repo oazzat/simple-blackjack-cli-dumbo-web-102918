@@ -31,9 +31,9 @@ end
 def hit? (total)
   prompt_user
   again = get_user_input
-  if again? == "h"
+  if again == "h"
     total = total + deal_card
-  elsif again? == "s"
+  elsif again == "s"
     return
   else
     invalid_command
